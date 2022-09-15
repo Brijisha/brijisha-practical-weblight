@@ -45,7 +45,9 @@ function RepositoryList() {
             setPage(1);
           }}
         >
-          <option selected>Select days </option>
+          <option value="30" selected>
+            Select days
+          </option>
           <option value="7">1 Week</option>
           <option value="14">2 Week</option>
           <option value="30">1 Month</option>
